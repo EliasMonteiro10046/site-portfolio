@@ -1,0 +1,33 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 65px;
+    border-bottom: 1px solid var(--dark-color);
+}
+
+header h1 {
+    cursor: pointer;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition-duration: 200ms;
+}
+
+nav ul li:hover {
+    color: var(--primary-color);
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+}
+
+.social-media > img {
+    cursor: pointer;
+}
