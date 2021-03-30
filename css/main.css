@@ -22,12 +22,19 @@ main > .cards-container {
     width: 30%;
     background: white;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    transition-duration: 200ms;
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 .card > .text-container {
     padding: 25px;
     line-height: 1.5;
 }
+
 
 .text-container > h3 {
     padding: 0 0 15px 0;
