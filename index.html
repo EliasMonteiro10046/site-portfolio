@@ -7,10 +7,10 @@
     <title>Document</title>
     <link rel="stylesheet" href="global.css" />
     <link rel="stylesheet" href="./css/header.css" />
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
   </head>
   <body>
-
     <header>
       <h1 class="logo">Origem<span class="smallerWeight">Móveis</span></h1>
       <nav>
@@ -18,12 +18,12 @@
           <li>SOBRE NÓS</li>
           <li>AMBIENTES</li>
           <li>ONDE ENCONTRAR</li>
-          <li>CONTATO</li>
+          <li><a href="#footer">CONTATO</a></li>
         </ul>
       </nav>
       <div class="social-media">
         <img src="./icons/facebook.svg" alt="facebook" width="20px" />
-        <img src="./icons/instagram.svg" alt="instagram" width="20px" />
+        <a href="https://www.instagram.com/origem_moveis/" target="_blank"><img src="./icons/instagram.svg" alt="instagram" width="20px" /></a>
       </div>
     </header>
 
@@ -36,7 +36,7 @@
 
       <section class="cards-container">
         <div class="card">
-          <img src="./images/cardsImages/card1.jpeg" alt="" width="300px"/>
+          <img src="./images/cardsImages/card1.jpeg" alt="" width="300px" />
           <div class="text-container">
             <h3>Título</h3>
             <p>
@@ -46,27 +46,57 @@
           </div>
         </div>
         <div class="card">
-            <img src="./images/cardsImages/card1.jpeg" alt="" width="300px"/>
-            <div class="text-container">
-              <h3>Título</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa
-                similique, nesciunt quis, harum odio ratione labore eum.
-              </p>
-            </div>
+          <img src="./images/cardsImages/card1.jpeg" alt="" width="300px" />
+          <div class="text-container">
+            <h3>Título</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa
+              similique, nesciunt quis, harum odio ratione labore eum.
+            </p>
           </div>
-          <div class="card">
-            <img src="./images/cardsImages/card1.jpeg" alt="" width="300px"/>
-            <div class="text-container">
-              <h3>Título</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa
-                similique, nesciunt quis, harum odio ratione labore eum.
-              </p>
-            </div>
+        </div>
+        <div class="card">
+          <img src="./images/cardsImages/card1.jpeg" alt="" width="300px" />
+          <div class="text-container">
+            <h3>Título</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa
+              similique, nesciunt quis, harum odio ratione labore eum.
+            </p>
           </div>
+        </div>
       </section>
-
     </main>
+
+    <footer id="footer">
+      <div class="footer-content">
+        <div class="left-side">
+          <strong>Faça seu orçamento</strong>
+          <span id="whatsapp">Whatsapp: 95xx-xxxx</span>
+          <span id="phone">Telefone: 36xx-xxxx</span>
+        </div>
+        <div class="right-side">
+          <strong>Siga-nos nas redes sociais</strong>
+          <span
+            ><img
+              id="facebook"
+              src="./icons/facebook-light.svg"
+              alt="facebook"
+              width="20px"
+          /></span>
+          <span
+            ><a href="https://www.instagram.com/origem_moveis/" target="_blank"><img
+              id="instagram"
+              src="./icons/instagram-light.svg"
+              alt="instagram"
+              width="20px"
+          /></a></span>
+        </div>
+      </div>
+
+      <div class="bottom-bar">
+        <span>2021. Origem Móveis</span>
+      </div>
+    </footer>
   </body>
 </html>
