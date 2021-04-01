@@ -19,16 +19,13 @@
     <link rel="stylesheet" href="./css/footer.css" />
   </head>
   <body>
-
     <header>
-
-      <img src="images/om/logo/om-logo.png">
+      <img src="images/om/logo/om-logo.png" />
       <nav>
-
-        <ul>          
-          <li>AMBIENTES</li>
-          <li>ONDE ENCONTRAR</li>
-          <li><a href="#footer">CONTATO</a></li>
+        <ul>
+          <a href=""><li>AMBIENTES</li></a>
+          <a href="#"><li>ONDE ENCONTRAR</li></a>
+          <a href="#footer"><li>CONTATO</li></a>
         </ul>
       </nav>
 
@@ -67,16 +64,54 @@
             data-bs-slide-to="2"
             aria-label="Slide 3"
           ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="4"
+            aria-label="Slide 5"
+          ></button>
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="./images/cardsImages/card1.jpeg" class="change d-block" alt="image1" />
+            <img
+              src="./images/slideImages/slide1.png"
+              class="change d-block"
+              alt="image1"
+            />
           </div>
           <div class="carousel-item">
-            <img src="./images/cardsImages/card2.jpg" class="change d-block" alt="image2" />
+            <img
+              src="./images/slideImages/slide2.jpg"
+              class="change d-block"
+              alt="image2"
+            />
           </div>
           <div class="carousel-item">
-            <img src="./images/cardsImages/card3.jpg" class="change d-block" alt="image3" />
+            <img
+              src="./images/slideImages/slide3.jpg"
+              class="change d-block"
+              alt="image3"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./images/slideImages/slide4.jpg"
+              class="change d-block"
+              alt="image3"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./images/slideImages/slide5.jpg"
+              class="change d-block"
+              alt="image3"
+            />
           </div>
         </div>
         <button
@@ -98,14 +133,15 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-      
+
       <div id="quemsomos">
-      <h2>QUEM SOMOS</h2>
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
-        standard dummy text ever since the 1500s.</p>
+        <h2>QUEM SOMOS</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nulla
+          velit, lacinia luctus arcu ac, placerat suscipit tortor.
+        </p>
       </div>
 
-      
       <h2>CONFIRA NOSSO TRABALHO</h2>
 
       <section class="cards-container">
@@ -140,10 +176,10 @@
           </div>
         </div>
       </section>
-    
     </main>
 
     <footer id="footer">
+      <img src="images/om/logo/om-logo.png" />
       <div class="footer-content">
         <div class="left-side">
           <strong>Faça seu orçamento</strong>
