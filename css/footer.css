@@ -1,9 +1,10 @@
 footer {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 50px 0 0 0;
+    height: 100vh;
     background: var(--black);
     color: var(--light-color);
 }
@@ -18,7 +19,7 @@ footer strong {
 }
 
 .left-side, .right-side {
-    line-height: 1.5;
+    line-height: 3;
     margin: 0 50px;
     display: flex;
     flex-direction: column;
@@ -28,6 +29,9 @@ footer strong {
     margin-top: 70px;
     padding: 15px 0;
     text-align: center;
+    position: absolute;
+    left: 0;
+    bottom: 0;
     width: 100%;
     border-top: 1px solid var(--dark-color);
 }
