@@ -9,20 +9,20 @@ footer {
     color: var(--light-color);
 }
 
-footer strong {
-    font-size: 1.3rem;
-    margin-bottom: 15px;
-}
-
 .footer-content {
     display: flex;
+    gap: 225px;
 }
 
 .left-side, .right-side {
-    line-height: 3;
-    margin: 0 50px;
+    line-height: 4;
     display: flex;
     flex-direction: column;
+}
+
+.right-side {
+    align-items: center;
+    justify-content: center;
 }
 
 .bottom-bar {
@@ -36,12 +36,12 @@ footer strong {
     background: var(--secondary-color);
 }
 
-#whatsapp::before, #phone::before {
+#whatsapp::before, #phone::before, #address::before {
     content: '';
     display: inline-flex;
-    margin-right: 10px;
-    width: 20px;
-    height: 20px;
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
     top:0px;
     left:0px;
 }
@@ -50,4 +50,7 @@ footer strong {
 }
 #phone::before {
     background: url('./../icons/call-light.svg') no-repeat center center/cover;
+}
+#address::before {
+    background: url('/../icons/pin.svg') no-repeat center center/cover;
 }
