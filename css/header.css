@@ -18,7 +18,7 @@ header > img {
 
 nav ul { margin: 0; padding: 0; }
 
-nav ul li {
+nav ul a li {
     font-size: 0.9rem;
     display: inline-block;
     margin: 0 10px;
@@ -27,7 +27,7 @@ nav ul li {
     transition-duration: 200ms;
 }
 
-nav ul li:hover {
+nav ul a:hover {
     color: var(--primary-color);
 }
 
